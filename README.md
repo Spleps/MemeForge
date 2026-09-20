@@ -162,4 +162,4 @@ MemeForge is a creative prototype. A generated name, score or text does not indi
 
 ## License
 
-No license has been selected yet. Add one before accepting external contributions or reusing the project commercially.
+MemeForge is released under the [MIT License](LICENSE).
