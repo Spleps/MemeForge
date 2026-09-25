@@ -49,6 +49,25 @@ sleep deprived frog is not early. you are simply emotionally prepared. $SLEEP
 
 The exact copy changes with the words entered in the form. The result can be copied with the **Copy pack** button and edited before publishing anywhere.
 
+### Second example
+
+```text
+Meme idea: a tiny robot that refuses to sleep
+Audience: builders, hackers and late-night developers
+```
+
+Possible result:
+
+```text
+Name: Tiny Robot
+Ticker: $ROBOT
+One-liner: The unofficial mascot of builders who ship before sunrise.
+Voice: Playful, technical, self-aware
+```
+
+The output is deliberately a starting point. A user can change the ticker, rewrite the posts,
+and reject the idea before publishing it anywhere.
+
 ## Features in the MVP
 
 - Responsive editorial-style interface.
@@ -144,6 +163,17 @@ The current MVP intentionally keeps generation transparent:
 6. The result is rendered immediately in React state.
 
 This makes the demo cheap to run and easy to understand. It is not intended to imitate a full language model or produce investment research.
+
+## Typical workflow
+
+1. Enter a short concept and describe the intended audience.
+2. Review the generated identity, lore, voice and starter posts.
+3. Copy the pack into a document or edit each part manually.
+4. Treat the result as creative brainstorming, not as a token launch or market recommendation.
+
+Because the generator runs entirely in the browser, the same input produces a predictable local
+result without an API key. This makes MemeForge suitable for a quick product prototype and for
+demonstrating transparent template-based generation.
 
 ## Product direction
 
